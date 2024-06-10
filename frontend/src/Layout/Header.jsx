@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <header>
-            <h1>BarberShop</h1>
-        </header>
+    <header>
+        <h1>ASTRO BARBEARIA</h1>
+    </header>
     );
 }
 

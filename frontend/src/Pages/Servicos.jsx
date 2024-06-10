@@ -8,7 +8,7 @@ function Servicos() {
     const [servicos, setServicos] = useState([]);
 
     function getServicos() {
-        axios.get("http://localhost:****/servicos")
+        axios.get("http://localhost:5103/servicos")
             .then((resposta) => {
                 setServicos(resposta.data);
             });

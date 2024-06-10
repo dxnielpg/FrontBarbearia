@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <h3>Página principal React</h3>
+            <h3>ASTRO BARBEARIA</h3>
         </footer>
     );
 }

@@ -7,7 +7,7 @@ function Funcionarios(){
     const [funcionarios, setFuncionario] = useState([]);
 
     function getFuncionario() {
-        axios.get("http://localhost:****/funcionarios")
+        axios.get("http://localhost:5103/funcionarios")
             .then((resposta) => {
                 setFuncionario(resposta.data);
             });
